@@ -8,7 +8,6 @@ using UnityEngine.Purchasing;
 [CreateAssetMenu(fileName = "IapProductData", menuName = "Monetization/IAP Product", order = 101)]
 public class IapProductData : BaseProductData
 {
-    [HideInInspector]
     public string productId;
 
 #if !NO_IAP && UNITY_PURCHASING && (UNITY_IOS || UNITY_ANDROID)

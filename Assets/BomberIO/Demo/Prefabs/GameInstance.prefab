@@ -92,7 +92,7 @@ MonoBehaviour:
   bombLayer: 9
   brickLayer: 10
   mapLayer: 11
-  showJoystickInEditor: 0
+  showJoystickInEditor: 1
   watchAdsRespawnPlacement: respawnPlacement
 --- !u!114 &114746067804190136
 MonoBehaviour:

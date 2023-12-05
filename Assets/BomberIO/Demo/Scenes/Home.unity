@@ -2007,7 +2007,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 15}
+  m_AnchoredPosition: {x: 77.5, y: 95}
   m_SizeDelta: {x: 145, y: 70}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &898194117
@@ -3863,7 +3863,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1427525763
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4027,6 +4027,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4650140616311234, guid: a6531d742d4cd024191b68d82120b6c6, type: 3}
       propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114325143524387380, guid: a6531d742d4cd024191b68d82120b6c6,
+        type: 3}
+      propertyPath: useWebSocket
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5857,6 +5862,7 @@ MonoBehaviour:
   inputName: {fileID: 1824152926}
   characterModelTransform: {fileID: 722984679}
   bombEntityTransform: {fileID: 84425697}
+  saveImmediatelyOnSelectItem: 1
   onlineNetworkAddress: 128.199.180.183
   onlineNetworkPort: 7778
   enterNetworkAddressDialog: {fileID: 423417551}
